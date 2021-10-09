@@ -1,6 +1,6 @@
 ## COMO EXECUTAR
 
-### Pre Requisítos
+### Pré-Requisítos
   - JDK11: https://jdk.java.net/java-se-ri/11
   - Maven: https://downloads.apache.org/maven/maven-3/3.6.3/binaries/
 
