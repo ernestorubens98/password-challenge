@@ -1,12 +1,18 @@
 package br.com.ernesto.validatepassword.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /** Data Transfer Object (DTO) representing PasswordRequestDTO requests. */
 @Builder
-public class PasswordRequestDTO {
+@AllArgsConstructor
+@NoArgsConstructor
+public class PasswordRequestDTO implements Serializable {
 
     // Password request
     private String password;
